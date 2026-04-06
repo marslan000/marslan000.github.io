@@ -1,6 +1,6 @@
 # Arslan Muhammad
 
-## Data Engineer | SQL | PySpark | Supply Chain Analytics
+## CCBA Certified | Data Engineer | Business Intelligence and Analytics | SQL | MS Fabric| PySpark | Python | Power BI | VBA 
 
 I build scalable data solutions for complex supply chain and manufacturing problems, including recursive BOM structures, cost modeling, and workflow automation.
 
