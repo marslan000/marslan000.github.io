@@ -87,7 +87,7 @@ Unified pricing policies across 100+ locations globally.
 <!-- LINKS / CONTACT -->
 ## 🔗 Links
 - [GitHub](https://marslan000.github.io/#-links)  
-- [LinkedIn](https://www.linkedin.com/in/arslan-muhammad/)
+- [LinkedIn](https://www.linkedin.com/in/arslan-muhammad-ccba-meng-eit-94a21461/)
 
 ---
 
