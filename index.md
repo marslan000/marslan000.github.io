@@ -4,7 +4,6 @@ theme: jekyll-theme-cayman
 
 <!-- HERO SECTION -->
 [![CCBA Badge](https://img.shields.io/badge/CCBA-Certified-blue?style=for-the-badge)](https://badges.iiba.org/ee9bb5e6-0dde-4bae-97bc-f1bf6d6168f0#acc.yMVj8cTS)
-# Arslan Muhammad
 
 ## Sr. Data Modeling & BI Analyst | Aerospace & Manufacturing Systems
 
