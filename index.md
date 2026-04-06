@@ -62,9 +62,7 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 ## 🚀 Featured Projects
 
 ### 🔹 Supply Chain Mapping Engine
-![Supply Chain Engine](images/supply_chain.png)  
-End-to-end ERP-integrated supply chain visibility using recursive logic.  
-[View Project on GitHub](#)
+[Recursive Supply Chain Mapping Engine](/project-supply-chain.md)
 
 ### 🔹 Aircraft Cost Modeling Engine
 ![Aircraft Cost Modeling](images/aircraft_cost.png)  
