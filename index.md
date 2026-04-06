@@ -1,6 +1,10 @@
+---
+theme: jekyll-theme-cayman
+---
+
 # Arslan Muhammad
 
-## CCBA Certified | Data Engineer | Business Intelligence and Analytics | SQL | MS Fabric| PySpark | Python | Power BI | VBA 
+##  CCBA Certified | Sr. Aerospace Data & Business (BI) Analyst | MS Fabric | PySpark | Python | SQL | ERP Specialist | VBA | MEng | BEng
 
 I build scalable data solutions for complex supply chain and manufacturing problems, including recursive BOM structures, cost modeling, and workflow automation.
 
