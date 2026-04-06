@@ -8,12 +8,7 @@ theme: jekyll-theme-cayman
 
 ## Sr. Data Modeling & BI Analyst | Aerospace & Manufacturing Systems
 
-I design **scalable data solutions** for complex aerospace & manufacturing systems, specializing in:  
-- Multi-level **BOM structures**  
-- **ERP-integrated data models**  
-- **End-to-end cost traceability**
-
-I solve high-complexity challenges such as **recursive supply chain mapping**, **cost modeling**, and **workflow automation** using **SQL, PySpark, Python, and Microsoft Fabric**.
+Over 10 years of experience designing and delivering data-driven solutions that optimize operations, costs, and strategic planning.
 
 ---
 
@@ -36,14 +31,18 @@ I solve high-complexity challenges such as **recursive supply chain mapping**, *
 ![Automation](https://img.shields.io/badge/Workflow-Automation-green?style=for-the-badge)
 
 ### ERP Systems
-![SAP](https://img.shields.io/badge/SAP-green?style=for-the-badge&logo=sap&logoColor=white&title=2015-2019)
-![JDIS](https://img.shields.io/badge/JDIS-yellow?style=for-the-badge&title=2021-2025)
-![Equip](https://img.shields.io/badge/Equip-yellow?style=for-the-badge&title=2021-2025)
-![Blaze](https://img.shields.io/badge/Blaze-green?style=for-the-badge&title=2024-2025)
-![Visual](https://img.shields.io/badge/Visual-yellow?style=for-the-badge&title=2025)
-![IFS](https://img.shields.io/badge/IFS-green?style=for-the-badge&title=2025%20-%20ongoing)
+<!-- ERP Systems - Horizontal with hover years -->
+<span>
+  <img src="https://img.shields.io/badge/IFS-green?style=for-the-badge" title="2025 - Current" style="display:inline-block; margin-right:5px;" />
+  <img src="https://img.shields.io/badge/Visual7-yellow?style=for-the-badge" title="2025" style="display:inline-block; margin-right:5px;" />
+  <img src="https://img.shields.io/badge/Blaze-green?style=for-the-badge" title="2024-2025" style="display:inline-block; margin-right:5px;" />
+  <img src="https://img.shields.io/badge/JDIS-yellow?style=for-the-badge" title="2021-2025" style="display:inline-block; margin-right:5px;" />
+  <img src="https://img.shields.io/badge/Equip-yellow?style=for-the-badge" title="2021-2025" style="display:inline-block; margin-right:5px;" />
+  <img src="https://img.shields.io/badge/SAP-green?style=for-the-badge&logo=sap&logoColor=white" title="2015-2019" style="display:inline-block; margin-right:5px;" />
+</span>
 
-*Legend:* 🟢 Cloud | 🟡 Server  
+<strong>Legend:</strong> 🟢 Cloud Based | 🟡 Server Based <br>
+<strong>ERP Systems:</strong> Hover over each badge to see years of experience
 
 ---
 
