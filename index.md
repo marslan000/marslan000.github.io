@@ -57,11 +57,64 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 
 ---
 
-<!-- FEATURED PROJECTS -->
 ## 🚀 Featured Projects
 
+<style>
+  /* Force top-left alignment for table content */
+  table.featured-projects td, table.featured-projects th {
+    vertical-align: top !important;
+    text-align: left !important;
+    padding-top: 10px;
+  }
+
+  table.featured-projects td div {
+    display: block !important;
+    margin: 0 !important;
+  }
+
+  table.featured-projects td h3,
+  table.featured-projects td p,
+  table.featured-projects td img,
+  table.featured-projects td a {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+</style>
+
+<table class="featured-projects" style="width:100%; border-collapse:collapse;">
+  <tr>
+    <th style="width:50%; border-bottom:2px solid #ccc; padding-bottom:10px;">Data Architecture Projects</th>
+    <th style="width:50%; border-bottom:2px solid #ccc; padding-bottom:10px;">Data-Driven Business Projects</th>
+  </tr>
+  <tr>
+    <td>
+
+<div>
+
+### 🔹 Medallian Architecture
+![Aircraft Cost Modeling](images/aircraft_cost.png)  
+Full cost traceability from aircraft assembly to raw material.  
+[View Project on GitHub](#)
+
+### 🔹 Workflow Automation
+![Workflow Automation](images/workflow.png)  
+Reduced manual effort by 75% and processing time by 55%.  
+[View Project on GitHub](#)
+
+### 🔹 Data Pieplines
+![Pricing Standardization](images/pricing.png)  
+Unified pricing policies across 100+ locations globally.  
+[View Project on GitHub](#)
+
+</div>
+    </td>
+    <td>
+
+<div>
+
 ### 🔹 Supply Chain Mapping Engine
-[Recursive Supply Chain Mapping Engine](/project-supply-chain.md)
+[Recursive Supply Chain Mapping Engine](/project-supply-chain.md)  
+End-to-end supply chain mapping engine for ERP-integrated cloud replication.
 
 ### 🔹 Aircraft Cost Modeling Engine
 ![Aircraft Cost Modeling](images/aircraft_cost.png)  
@@ -77,6 +130,11 @@ Reduced manual effort by 75% and processing time by 55%.
 ![Pricing Standardization](images/pricing.png)  
 Unified pricing policies across 100+ locations globally.  
 [View Project on GitHub](#)
+
+</div>
+    </td>
+  </tr>
+</table>
 
 ---
 
