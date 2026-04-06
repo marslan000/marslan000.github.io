@@ -1,5 +1,3 @@
-theme: jekyll-theme-cayman
-
 # Arslan Muhammad
 
 ## CCBA Certified | Data Engineer | Business Intelligence and Analytics | SQL | MS Fabric| PySpark | Python | Power BI | VBA 
