@@ -75,21 +75,14 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 </div>
 
 <div style="margin-bottom:18px;">
-<b>🔹 Aircraft Cost Modeling</b><br>
+<b>🔹 Aircraft Cost Modeling (Coming Soon)</b><br>
 <img src="images/aircraft_cost.png" width="100%" style="border-radius:6px; margin-top:5px;" />
 <sub>Full cost traceability from aircraft to raw material</sub><br>
 <a href="#">View Project →</a>
 </div>
 
-<div style="margin-bottom:18px;">
-<b>🔹 Workflow Optimization (Coming Soon)</b><br>
-<img src="images/workflow.png" width="100%" style="border-radius:6px; margin-top:5px;" />
-<sub>Improved processing time by 55%</sub><br>
-<a href="#">View Project →</a>
-</div>
-
 <div>
-<b>🔹 Global Pricing Standardization</b><br>
+<b>🔹 Global Pricing Standardization (Coming Soon)</b><br>
 <img src="images/pricing.png" width="100%" style="border-radius:6px; margin-top:5px;" />
 <sub>Standardized pricing across 100+ global locations</sub><br>
 <a href="#">View Project →</a>
@@ -108,21 +101,21 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 <br><br>
 
 <div style="margin-bottom:18px;">
-<b>🔹 Medallion Architecture</b><br>
+<b>🔹 Medallion Architecture (Coming Soon)</b><br>
 <img src="images/aircraft_cost.png" width="100%" style="border-radius:6px; margin-top:5px;" />
 <sub>End-to-end layered data architecture (Bronze → Silver → Gold)</sub><br>
 <a href="#">View Project →</a>
 </div>
 
 <div style="margin-bottom:18px;">
-<b>🔹 Workflow Automation</b><br>
+<b>🔹 Workflow Automation (Coming Soon)</b><br>
 <img src="images/workflow.png" width="100%" style="border-radius:6px; margin-top:5px;" />
 <sub>Automated pipelines reducing manual effort by 75%</sub><br>
 <a href="#">View Project →</a>
 </div>
 
 <div>
-<b>🔹 Data Pipelines</b><br>
+<b>🔹 Data Pipelines (Coming Soon)</b><br>
 <img src="images/pricing.png" width="100%" style="border-radius:6px; margin-top:5px;" />
 <sub>Scalable ingestion & transformation pipelines</sub><br>
 <a href="#">View Project →</a>
