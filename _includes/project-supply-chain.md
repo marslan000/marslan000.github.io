@@ -16,9 +16,10 @@ Supply chain visibility across the organization was highly fragmented. Analysts 
   - Procurement needs to take action to raw material 1 and 2 to avoid all the shortage for Aircraft 10 (Sub Assembly A)
  
     <p align="center">
-     <img src="images/problem_flow.png" width="450">
-     <br>
+      <img src="{{ site.baseurl }}/images/problem_flow.png" width="450">
+      <br>
     </p>
+
 
 ---
 
@@ -97,7 +98,7 @@ df_supply_chain_map = map_supply_chain(df_anchor)
 ### 🧠 Technical Flow & Architecture
 
 <p align="center">
-  <img src="images/supply_chain_flow.png" width="550">
+  <img src="{{ site.baseurl }}/images/supply_chain_flow.png" width="550">
   <br>
   <em>End-to-end supply chain engine integrating multi-facility flows, internal manufacturing, and external procurement</em>
 </p>
@@ -116,6 +117,6 @@ df_supply_chain_map = map_supply_chain(df_anchor)
 - 🔄 Scalable engine supporting **thousands of aircraft and scenario variants**
 
     <p align="center">
-     <img src="images/solution_flow.png" width="450">
+     <img src="{{ site.baseurl }}/images/solution_flow.png" width="450">
      <br>
     </p>
