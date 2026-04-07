@@ -1,4 +1,7 @@
-### 🔹 Supply Chain Insight Engine
+---
+layout: default
+Title: "Supply Chain Insight Engine"
+---
 
 ### 🧩 Problem / Before
 Supply chain visibility across the organization was highly fragmented. Analysts relied on manual ERP data extraction from multiple sources, making it difficult to understand end-to-end dependencies.
