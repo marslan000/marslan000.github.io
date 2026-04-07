@@ -59,82 +59,75 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 
 ## 🚀 Featured Projects
 
-<style>
-  /* Force top-left alignment for table content */
-  table.featured-projects td, table.featured-projects th {
-    vertical-align: top !important;
-    text-align: left !important;
-    padding-top: 10px;
-  }
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:25px;">
 
-  table.featured-projects td div {
-    display: block !important;
-    margin: 0 !important;
-  }
+<!-- ================= LEFT: DATA ARCH ================= -->
+<div style="border:1px solid #e0e0e0; padding:18px; border-radius:10px; background:#fafafa;">
+  
+<b style="font-size:18px;">🏗 Data Architecture</b>
 
-  table.featured-projects td h3,
-  table.featured-projects td p,
-  table.featured-projects td img,
-  table.featured-projects td a {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-</style>
+<br><br>
 
-<table class="featured-projects" style="width:100%; border-collapse:collapse;">
-  <tr>
-    <th style="width:50%; border-bottom:2px solid #ccc; padding-bottom:10px;">Data Architecture Projects</th>
-    <th style="width:50%; border-bottom:2px solid #ccc; padding-bottom:10px;">Data-Driven Business Projects</th>
-  </tr>
-  <tr>
-    <td>
+<div style="margin-bottom:18px;">
+<b>🔹 Medallion Architecture</b><br>
+<img src="images/aircraft_cost.png" width="100%" style="border-radius:6px; margin-top:5px;" />
+<sub>End-to-end layered data architecture (Bronze → Silver → Gold)</sub><br>
+<a href="#">View Project →</a>
+</div>
+
+<div style="margin-bottom:18px;">
+<b>🔹 Workflow Automation</b><br>
+<img src="images/workflow.png" width="100%" style="border-radius:6px; margin-top:5px;" />
+<sub>Automated pipelines reducing manual effort by 75%</sub><br>
+<a href="#">View Project →</a>
+</div>
 
 <div>
-
-### 🔹 Medallian Architecture
-![Aircraft Cost Modeling](images/aircraft_cost.png)  
-Full cost traceability from aircraft assembly to raw material.  
-[View Project on GitHub](#)
-
-### 🔹 Workflow Automation
-![Workflow Automation](images/workflow.png)  
-Reduced manual effort by 75% and processing time by 55%.  
-[View Project on GitHub](#)
-
-### 🔹 Data Pieplines
-![Pricing Standardization](images/pricing.png)  
-Unified pricing policies across 100+ locations globally.  
-[View Project on GitHub](#)
+<b>🔹 Data Pipelines</b><br>
+<img src="images/pricing.png" width="100%" style="border-radius:6px; margin-top:5px;" />
+<sub>Scalable ingestion & transformation pipelines</sub><br>
+<a href="#">View Project →</a>
+</div>
 
 </div>
-    </td>
-    <td>
+
+<!-- ================= RIGHT: DATA BUSINESS ================= -->
+<div style="border:1px solid #e0e0e0; padding:18px; border-radius:10px; background:#fafafa;">
+  
+<b style="font-size:18px;">💼 Data-Driven Business</b>
+
+<br><br>
+
+<div style="margin-bottom:18px;">
+<b>🔹 Supply Chain Mapping Engine</b><br>
+<a href="/project-supply-chain.md"><b>Recursive Supply Chain Mapping Engine →</b></a><br>
+<sub>ERP-integrated multi-level supply chain mapping & traceability</sub>
+</div>
+
+<div style="margin-bottom:18px;">
+<b>🔹 Aircraft Cost Modeling</b><br>
+<img src="images/aircraft_cost.png" width="100%" style="border-radius:6px; margin-top:5px;" />
+<sub>Full cost traceability from aircraft to raw material</sub><br>
+<a href="#">View Project →</a>
+</div>
+
+<div style="margin-bottom:18px;">
+<b>🔹 Workflow Optimization</b><br>
+<img src="images/workflow.png" width="100%" style="border-radius:6px; margin-top:5px;" />
+<sub>Improved processing time by 55%</sub><br>
+<a href="#">View Project →</a>
+</div>
 
 <div>
-
-### 🔹 Supply Chain Mapping Engine
-[Recursive Supply Chain Mapping Engine](/project-supply-chain.md)  
-End-to-end supply chain mapping engine for ERP-integrated cloud replication.
-
-### 🔹 Aircraft Cost Modeling Engine
-![Aircraft Cost Modeling](images/aircraft_cost.png)  
-Full cost traceability from aircraft assembly to raw material.  
-[View Project on GitHub](#)
-
-### 🔹 Workflow Automation
-![Workflow Automation](images/workflow.png)  
-Reduced manual effort by 75% and processing time by 55%.  
-[View Project on GitHub](#)
-
-### 🔹 Global Pricing Standardization
-![Pricing Standardization](images/pricing.png)  
-Unified pricing policies across 100+ locations globally.  
-[View Project on GitHub](#)
+<b>🔹 Global Pricing Standardization</b><br>
+<img src="images/pricing.png" width="100%" style="border-radius:6px; margin-top:5px;" />
+<sub>Standardized pricing across 100+ global locations</sub><br>
+<a href="#">View Project →</a>
+</div>
 
 </div>
-    </td>
-  </tr>
-</table>
+
+</div>
 
 ---
 
