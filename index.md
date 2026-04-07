@@ -69,9 +69,13 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 <br><br>
 
 <div style="margin-bottom:18px;">
-<b>🔹 Supply Chain Mapping Engine</b><br>
-<sub>End-to-end supply chain visibility & traceability</sub><br>
-<a href="/project-supply-chain.html">View Project →</a>
+  <b>🔹 Supply Chain Mapping Engine</b><br>
+  <sub>End-to-end supply chain visibility & traceability</sub><br>
+
+  <details>
+    <summary>View Project →</summary>
+    {% include project-supply-chain.md %}
+  </details>
 </div>
 
 <div style="margin-bottom:18px;">
