@@ -22,22 +22,27 @@ Supply chain visibility across the organization was highly fragmented. Analysts 
 ---
 
 ### ⚙️ Solution & Approach
-Developed a scalable **Supply Chain Insight Engine** that reconstructs the complete supply-demand network across the enterprise (Expland for Pseudo Code)
+Developed a scalable **Supply Chain Insight Engine** that reconstructs the complete supply-demand network across the enterprise **(Exoand for PSeudo Code)**
 
 <details>
 <summary>1️⃣ Consolidate All Demand & Supply</summary>
 
 - Sources included: Customer Orders (CO), Sales Orders (SO), Work Orders (WO), Planned Orders (PO/PL), Stock, Reservations, Inter-site transfers
 
-python
+```python
 # Consolidate all demand and supply
 df_demand = spark.sql("SELECT part_id, demand_qty, demand_date FROM demand_tables")
 df_supply = spark.sql("SELECT part_id, supply_qty, supply_date FROM supply_tables")
 df_all = df_demand.join(df_supply, on="part_id", how="left")
+```
 
-</details> <details> <summary>2️⃣ Replicate ERP Logic for Alignment</summary>
+</details>
+
+<details>
+<summary>2️⃣ Replicate ERP Logic for Alignment</summary>
 Aligns demands with appropriate supplies based on priority: Stock → Shop/Purchase Orders → Planned Orders → No Supply
 
+```python
 # Align supplies to demands by priority
 df_aligned = df_all.withColumn(
     "allocated_qty",
@@ -46,12 +51,17 @@ df_aligned = df_all.withColumn(
     "remaining_shortage",
     F.col("demand_qty") - F.col("allocated_qty")
 )
+```
 
-</details> <details> <summary>3️⃣ Recursive Supply Chain Mapping</summary>
+</details>
+
+<details>
+<summary>3️⃣ Recursive Supply Chain Mapping</summary>
 Traverse from final aircraft assembly down to raw materials
 Tracks multi-level shortages
 Stops recursion when no further demand exists
 
+```python
 # Recursive supply chain mapping
 df_anchor = df_aligned.filter(F.col("parent_assembly").isNull())
 
@@ -70,7 +80,10 @@ def map_supply_chain(df_current, max_depth=10):
         df_result = df_next
     return df_result
 
-df_supply_chain_map = map_supply_chain(df_anchor) </details>
+df_supply_chain_map = map_supply_chain(df_anchor)
+```
+
+</details>
 
 *⚠️ Note: This is **pseudo code** to illustrate the approach. For the full code or discussion, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/arslan-muhammad-ccba-meng-eit-94a21461/).*
 ---
