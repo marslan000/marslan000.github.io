@@ -61,7 +61,7 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 
 <div style="display:grid; grid-template-columns:1fr 1fr; gap:25px;">
 
-<!-- ================= LEFT: DATA ARCH ================= -->
+<!-- ================= LEFT: DATA BUSINESS ================= -->
 <div style="border:1px solid #e0e0e0; padding:18px; border-radius:10px; background:#fafafa;">
   
 <b style="font-size:18px;">💼 Data-Driven Business</b>
@@ -70,8 +70,8 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 
 <div style="margin-bottom:18px;">
 <b>🔹 Supply Chain Mapping Engine</b><br>
-<a href="/project-supply-chain.md"><b>Recursive Supply Chain Mapping Engine →</b></a><br>
-<sub>ERP-integrated multi-level supply chain mapping & traceability</sub>
+<sub>End-to-end supply chain visibility & traceability</sub><br>
+<a href="/project-supply-chain.md">View Project →</a>
 </div>
 
 <div style="margin-bottom:18px;">
@@ -90,10 +90,7 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 
 </div>
 
-</div>
-
-
-<!-- ================= RIGHT: DATA BUSINESS ================= -->
+<!-- ================= RIGHT: DATA ARCH ================= -->
 <div style="border:1px solid #e0e0e0; padding:18px; border-radius:10px; background:#fafafa;">
   
 <b style="font-size:18px;">🏗 Data Architecture</b>
@@ -119,6 +116,8 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 <img src="images/pricing.png" width="100%" style="border-radius:6px; margin-top:5px;" />
 <sub>Scalable ingestion & transformation pipelines</sub><br>
 <a href="#">View Project →</a>
+</div>
+
 </div>
 
 </div>
