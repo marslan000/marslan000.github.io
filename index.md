@@ -49,9 +49,9 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 ## 🛠 Core Expertise
 
 - **Data Engineering & Analytics**: SQL, PySpark, Microsoft Fabric, data-driven modeling  
-- **Supply Chain Modeling**: End-to-end supply chain mapping (ERP-integrated cloud replication)  
+- **Supply Chain Modeling**: End-to-end supply chain mapping (**ERP-integrated cloud replication**)  
 - **Cost & Pricing Modeling**: Aircraft cost traceability, pricing strategy, and standardization (**$22M revenue impact**)  
-- **Inventory Optimization**: Fill rate improvement (~1.5% increase on $300M multi-site inventory)  
+- **Inventory Optimization**: Fill rate improvement (**~1.5% increase on $300M multi-site inventory**)  
 - **Automation**: Python, VBA, Power Automate, CRD, Task Scheduler, Data Pipelines, workflow optimization  
 - **Visualization**: Power BI dashboards and reporting  
 
