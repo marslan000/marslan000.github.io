@@ -17,19 +17,21 @@ Supply chain visibility across the organization was highly fragmented. Analysts 
 ---
 
 ### ⚙️ Solution & Approach
-Developed a scalable **Supply Chain Insight Engine** that reconstructs the complete supply-demand network across the enterprise.
+Developed a scalable **Supply Chain Insight Engine** that reconstructs the complete supply-demand network across the enterprise (Expland for Pseudo Code)
 
-- Consolidated all demand and supply sources:
-  - Customer Orders (CO), Sales Orders (SO)
-  - Work Orders (WO), Planned Orders (PO/PL)
-  - Stock, Reservations, Inter-site transfers
-    
+<details>
+<summary>1️⃣ Consolidate All Demand & Supply</summary>
+
+- Sources included: Customer Orders (CO), Sales Orders (SO), Work Orders (WO), Planned Orders (PO/PL), Stock, Reservations, Inter-site transfers
+
+python
 # Consolidate all demand and supply
 df_demand = spark.sql("SELECT part_id, demand_qty, demand_date FROM demand_tables")
 df_supply = spark.sql("SELECT part_id, supply_qty, supply_date FROM supply_tables")
 df_all = df_demand.join(df_supply, on="part_id", how="left")
 
-- Replicated ERP logic to **align demands with appropriate supplies**
+</details> <details> <summary>2️⃣ Replicate ERP Logic for Alignment</summary>
+Aligns demands with appropriate supplies based on priority: Stock → Shop/Purchase Orders → Planned Orders → No Supply
 
 # Align supplies to demands by priority
 df_aligned = df_all.withColumn(
@@ -40,8 +42,10 @@ df_aligned = df_all.withColumn(
     F.col("demand_qty") - F.col("allocated_qty")
 )
 
-- Built a **recursive PySpark model** to traverse from final aircraft assembly down to raw material level
-- Enabled **critical path and shortage impact analysis** across multiple facilities and supply sources
+</details> <details> <summary>3️⃣ Recursive Supply Chain Mapping</summary>
+Traverse from final aircraft assembly down to raw materials
+Tracks multi-level shortages
+Stops recursion when no further demand exists
 
 # Recursive supply chain mapping
 df_anchor = df_aligned.filter(F.col("parent_assembly").isNull())
@@ -61,10 +65,9 @@ def map_supply_chain(df_current, max_depth=10):
         df_result = df_next
     return df_result
 
-df_supply_chain_map = map_supply_chain(df_anchor)
+df_supply_chain_map = map_supply_chain(df_anchor) </details>
 
-- Published results in **Power BI** for real-time, organization-wide visibility
-
+*⚠️ Note: This is **pseudo code** to illustrate the approach. For the full code or discussion, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/arslan-muhammad-ccba-meng-eit-94a21461/).*
 ---
 
 ### 🧠 Technical Flow & Architecture
@@ -79,7 +82,7 @@ df_supply_chain_map = map_supply_chain(df_anchor)
 
 ### 📊 Impact / Results
 
-- ⏱ Reduced analysis time from **30+ minutes per part → near-instant insights**
+- ⏱ Reduced analysis time from **10+ minutes per part → near-instant insights**
 - 🔍 Enabled full **end-to-end supply chain visibility**
 - ⚠️ Proactively identified **shortages and impacted assemblies**
 - 🏭 Improved decision-making across:
