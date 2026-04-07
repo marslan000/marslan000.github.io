@@ -28,6 +28,8 @@ Developed a scalable **Supply Chain Insight Engine** that reconstructs the compl
 <details>
 <summary>1️⃣ Consolidate All Demand & Supply</summary>
 
+<br>
+
 - Sources included: Customer Orders (CO), Sales Orders (SO), Work Orders (WO), Planned Orders (PO/PL), Stock, Reservations, Inter-site transfers
 
 ```python
@@ -36,11 +38,13 @@ df_demand = spark.sql("SELECT part_id, demand_qty, demand_date FROM demand_table
 df_supply = spark.sql("SELECT part_id, supply_qty, supply_date FROM supply_tables")
 df_all = df_demand.join(df_supply, on="part_id", how="left")
 ```
-
 </details>
 
 <details>
 <summary>2️⃣ Replicate ERP Logic for Alignment</summary>
+ 
+<br>
+
 Aligns demands with appropriate supplies based on priority: Stock → Shop/Purchase Orders → Planned Orders → No Supply
 
 ```python
@@ -53,11 +57,13 @@ df_aligned = df_all.withColumn(
     F.col("demand_qty") - F.col("allocated_qty")
 )
 ```
-
 </details>
 
 <details>
 <summary>3️⃣ Recursive Supply Chain Mapping</summary>
+ 
+<br>
+
 Traverse from final aircraft assembly down to raw materials
 Tracks multi-level shortages
 Stops recursion when no further demand exists
@@ -83,7 +89,6 @@ def map_supply_chain(df_current, max_depth=10):
 
 df_supply_chain_map = map_supply_chain(df_anchor)
 ```
-
 </details>
 
 *⚠️ Note: This is **pseudo code** to illustrate the approach. For the full concept or discussion, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/arslan-muhammad-ccba-meng-eit-94a21461/).*
