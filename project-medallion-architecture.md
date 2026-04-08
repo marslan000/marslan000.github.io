@@ -121,5 +121,4 @@ GROUP BY customer_id
 - REST APIs
 - File-based Data Lake
 - Medallion Architecture
-
 <p align="right"><sub>© Arslan Muhammad</sub></p>
