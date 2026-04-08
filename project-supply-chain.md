@@ -89,7 +89,6 @@ df_supply_chain_map = map_supply_chain(df_anchor)
 </details>
 
 *⚠️ Note: This is **pseudo code** to illustrate the approach. For the full concept or discussion, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/arslan-muhammad-ccba-meng-eit-94a21461/).*
----
 
 ### 🧠 Technical Flow & Architecture
 
@@ -116,3 +115,4 @@ df_supply_chain_map = map_supply_chain(df_anchor)
      <img src="solution_flow.png" width="450">
      <br>
     </p>
+<p align="right"><sub>© Arslan Muhammad</sub></p>
