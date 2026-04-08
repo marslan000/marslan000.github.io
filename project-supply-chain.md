@@ -30,7 +30,6 @@ Developed a scalable **Supply Chain Insight Engine** that reconstructs the compl
 <summary>1️⃣ Consolidate All Demand & Supply</summary>
 
 <pre><code class="language-python">
-# Consolidate all demand and supply
 df_demand = spark.sql("SELECT part_id, demand_qty, demand_date FROM demand_tables")
 df_supply = spark.sql("SELECT part_id, supply_qty, supply_date FROM supply_tables")
 df_all = df_demand.join(df_supply, on="part_id", how="left")
@@ -45,8 +44,7 @@ df_all = df_demand.join(df_supply, on="part_id", how="left")
 
 Aligns demands with appropriate supplies based on priority: Stock → Shop/Purchase Orders → Planned Orders → No Supply
 
-```python
-# Align supplies to demands by priority
+<pre><code class="language-python">
 df_aligned = df_all.withColumn(
     "allocated_qty",
     F.least(F.col("demand_qty"), F.col("supply_qty"))
@@ -54,7 +52,8 @@ df_aligned = df_all.withColumn(
     "remaining_shortage",
     F.col("demand_qty") - F.col("allocated_qty")
 )
-```
+</code></pre>
+
 </details>
 
 <details>
@@ -66,8 +65,7 @@ Traverse from final aircraft assembly down to raw materials
 Tracks multi-level shortages
 Stops recursion when no further demand exists
 
-```python
-# Recursive supply chain mapping
+<pre><code class="language-python">
 df_anchor = df_aligned.filter(F.col("parent_assembly").isNull())
 
 def map_supply_chain(df_current, max_depth=10):
@@ -86,7 +84,8 @@ def map_supply_chain(df_current, max_depth=10):
     return df_result
 
 df_supply_chain_map = map_supply_chain(df_anchor)
-```
+</code></pre>
+
 </details>
 
 *⚠️ Note: This is **pseudo code** to illustrate the approach. For the full concept or discussion, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/arslan-muhammad-ccba-meng-eit-94a21461/).*
