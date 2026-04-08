@@ -98,10 +98,9 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 <br><br>
 
 <div style="margin-bottom:18px;">
-<b>🔹 Medallion Architecture (Coming Soon)</b><br>
-<img src="images/aircraft_cost.png" width="100%" style="border-radius:6px; margin-top:5px;" />
-<sub>End-to-end layered data architecture (Bronze → Silver → Gold)</sub><br>
-<a href="#">View Project →</a>
+  <b>🔹 Medallion Architecture</b><br>
+  <sub>End-to-end layered data architecture (Bronze → Silver → Gold)</sub><br>
+  <a href=project-medallion-architecture.html">View Project →</a>
 </div>
 
 <div style="margin-bottom:18px;">
