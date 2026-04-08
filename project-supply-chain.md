@@ -29,16 +29,13 @@ Developed a scalable **Supply Chain Insight Engine** that reconstructs the compl
 <details>
 <summary>1️⃣ Consolidate All Demand & Supply</summary>
 
-<br>
-
-- Sources included: Customer Orders (CO), Sales Orders (SO), Work Orders (WO), Planned Orders (PO/PL), Stock, Reservations, Inter-site transfers
-
-```python
+<pre><code class="language-python">
 # Consolidate all demand and supply
 df_demand = spark.sql("SELECT part_id, demand_qty, demand_date FROM demand_tables")
 df_supply = spark.sql("SELECT part_id, supply_qty, supply_date FROM supply_tables")
 df_all = df_demand.join(df_supply, on="part_id", how="left")
-```
+</code></pre>
+
 </details>
 
 <details>
