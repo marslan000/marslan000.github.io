@@ -51,7 +51,6 @@ Store managers frequently overrode prices based on intuition.
 <br>
 
 <pre><code class="language-python">
-# 🔹 Enterprise Pricing Policy Automation & Market Intelligence
 # © Arslan Muhammad
 
 import requests
@@ -152,13 +151,6 @@ summary = df_merged[["Product", "Store", "OfficialPrice", "MarketPrice",
                      "SuggestedPrice", "PricingCategory", "ProjectedRevenue"]]
 
 print(summary)
-
-# ✅ Impact:
-# - $22M estimated increase in revenue (Finance Report FY 2022-2023)
-# - Standardized pricing across all stores
-# - Data-driven adjustments based on market intelligence
-# - Minimal operational investment, significant strategic gains
-</code></pre>
 
 </details>
   
