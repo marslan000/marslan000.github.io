@@ -103,7 +103,7 @@ Over 10 years of experience designing and delivering data-driven solutions that 
   <img src="https://img.shields.io/badge/SAP-green?style=for-the-badge&logo=sap&logoColor=white" title="2015-2019" style="display:inline-block; margin-right:5px;" />
 </span>
 
-<strong>Legend:</strong> 🟢 Cloud Based | 🟡 Server Based <br>
+<strong>Legend:</strong> 🟢 Cloud Based ERP | 🟡 Server Based ERP <br>
 <strong>ERP Systems:</strong> Hover over each badge to see years of experience
 
 <!-- CORE EXPERTISE -->
@@ -187,6 +187,27 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 
 <!-- LINKS / CONTACT -->
 ## 🔗 Links
-- [GitHub](https://github.com/marslan000) 
-- [LinkedIn](https://www.linkedin.com/in/arslan-muhammad-ccba-meng-eit-94a21461/)
-- <p align="right"><sub>© Arslan Muhammad</sub></p>
+
+<div style="margin-top:15px; display:flex; gap:15px; flex-wrap:wrap;">
+
+  <a href="https://www.linkedin.com/in/arslan-muhammad-ccba-meng-eit-94a21461/" 
+     style="padding:10px 16px; background:#161b22; border-radius:8px; text-decoration:none; color:#58a6ff; font-weight:bold; box-shadow:0 4px 10px rgba(0,0,0,0.3); transition:0.2s;"
+     onmouseover="this.style.transform='translateY(-2px)'"
+     onmouseout="this.style.transform='translateY(0)'">
+     💼 LinkedIn
+  </a>
+  
+  <a href="https://github.com/marslan000" 
+     style="padding:10px 16px; background:#161b22; border-radius:8px; text-decoration:none; color:#58a6ff; font-weight:bold; box-shadow:0 4px 10px rgba(0,0,0,0.3); transition:0.2s;"
+     onmouseover="this.style.transform='translateY(-2px)'"
+     onmouseout="this.style.transform='translateY(0)'">
+     🐙 GitHub
+  </a>
+
+</div>
+
+<br>
+
+<p style="text-align:right; color:#8b949e; font-size:12px;">
+  © Arslan Muhammad
+</p>
