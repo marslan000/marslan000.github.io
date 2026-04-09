@@ -151,9 +151,10 @@ summary = df_merged[["Product", "Store", "OfficialPrice", "MarketPrice",
                      "SuggestedPrice", "PricingCategory", "ProjectedRevenue"]]
 
 print(summary)
-
+</code></pre>
+     
 </details>
-  
+     
 *⚠️ Note: This is **pseudo code** to illustrate the approach. For the full concept or discussion, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/arslan-muhammad-ccba-meng-eit-94a21461/).*
 
 ### 3️⃣ Data-Driven Pricing Adjustments
