@@ -1,3 +1,5 @@
+<!-- PAGE FORMAT -->
+
 <style>
   body {
     background-color: #0d1117;
@@ -127,61 +129,65 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 
 ## 🚀 Featured Projects
 
-<div style="display:grid; grid-template-columns:1fr 1fr; gap:25px;">
+<div class="section-container">
 
-<!-- ================= LEFT: DATA BUSINESS ================= -->
-<div style="border:1px solid #e0e0e0; padding:18px; border-radius:10px; background:#fafafa;">
+<!-- ================= LEFT ================= -->
+<div class="category-card fade-in">
   
 <b style="font-size:18px;">💼 Data-Driven Business</b>
 
 <br><br>
 
-<div style="margin-bottom:18px;">
+<div class="project-item">
   <b>🔹 Supply Chain Mapping Engine</b><br>
-  <sub>End-to-end supply chain visibility & traceability</sub><br>
-  <img src="pipeline_before.png" width="100%" style="border-radius:6px; margin-top:5px;" />
-  <a href="project-supply-chain.html">View Project →</a>
+
+  <a href="project-supply-chain.html">
+    <img src="pipeline_before.png" />
+  </a>
+
+  <div class="subtext">End-to-end supply chain visibility & traceability</div>
+  <a class="project-link" href="project-supply-chain.html">View Project →</a>
 </div>
 
-<div style="margin-bottom:18px;">
+<div class="project-item">
 <b>🔹 Aircraft Cost Modeling (Coming Soon)</b><br>
-<img src="images/aircraft_cost.png" width="100%" style="border-radius:6px; margin-top:5px;" />
-<sub>Full cost traceability from aircraft to raw material</sub><br>
+<img src="images/aircraft_cost.png" />
+<div class="subtext">Full cost traceability from aircraft to raw material</div>
 <a href="#">View Project →</a>
 </div>
 
-<div>
+<div class="project-item">
 <b>🔹 Global Pricing Standardization (Coming Soon)</b><br>
-<img src="images/pricing.png" width="100%" style="border-radius:6px; margin-top:5px;" />
-<sub>Standardized pricing across 100+ global locations</sub><br>
+<img src="images/pricing.png" />
+<div class="subtext">Standardized pricing across 100+ global locations</div>
 <a href="#">View Project →</a>
 </div>
 
 </div>
 
-<!-- ================= RIGHT: DATA ARCH ================= -->
-<div style="border:1px solid #e0e0e0; padding:18px; border-radius:10px; background:#fafafa;">
+<!-- ================= RIGHT ================= -->
+<div class="category-card fade-in">
   
 <b style="font-size:18px;">🏗 Data Architecture</b>
 
 <br><br>
 
-<div style="margin-bottom:18px;">
+<div class="project-item">
   <b>🔹 Medallion Architecture</b><br>
-  <sub>End-to-end layered data architecture (Bronze → Silver → Gold)</sub><br>
-  <a href="project-medallion-architecture.html">View Project →</a>
+  <div class="subtext">End-to-end layered data architecture (Bronze → Silver → Gold)</div>
+  <a class="project-link" href="project-medallion-architecture.html">View Project →</a>
 </div>
 
-<div style="margin-bottom:18px;">
+<div class="project-item">
   <b>🔹 Data Pipelines</b><br>
-  <sub>Scalable ingestion & transformation pipelines</sub><br>
-  <a href="project-data-pipeline.html">View Project →</a>
+  <div class="subtext">Scalable ingestion & transformation pipelines</div>
+  <a class="project-link" href="project-data-pipeline.html">View Project →</a>
 </div>
 
-<div style="margin-bottom:18px;">
+<div class="project-item">
 <b>🔹 Workflow Automation (Coming Soon)</b><br>
-<img src="images/workflow.png" width="100%" style="border-radius:6px; margin-top:5px;" />
-<sub>Automated pipelines reducing manual effort by 75%</sub><br>
+<img src="images/workflow.png" />
+<div class="subtext">Automated pipelines reducing manual effort by 75%</div>
 <a href="#">View Project →</a>
 </div>
 
