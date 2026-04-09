@@ -135,16 +135,16 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 </div>
 
 <div class="project-item">
+  <b>🔹 Standardized Pricing Policy ($22M Generated) </b><br>
+  <div class="subtext" style="color: #f0f0f0;">Standardized pricing across 60 locations</div>
+  <a class="project-link" href="project-pricing-policy.html">View Project →</a>
+</div>
+
+
+<div class="project-item">
 <b>🔹 Aircraft Cost Modeling (Coming Soon)</b><br>
 <img src="images/aircraft_cost.png" />
 <div class="subtext">Full cost traceability from aircraft to raw material</div>
-<a href="#">View Project →</a>
-</div>
-
-<div class="project-item">
-<b>🔹 Global Pricing Standardization (Coming Soon)</b><br>
-<img src="images/pricing.png" />
-<div class="subtext">Standardized pricing across 100+ global locations</div>
 <a href="#">View Project →</a>
 </div>
 
