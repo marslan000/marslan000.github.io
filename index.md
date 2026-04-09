@@ -104,16 +104,16 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 </div>
 
 <div style="margin-bottom:18px;">
+  <b>🔹 Data Pipelines</b><br>
+  <sub>Scalable ingestion & transformation pipelines</sub><br>
+  <a href="project-data-pipeline.html">View Project →</a>
+</div>
+
+<div style="margin-bottom:18px;">
 <b>🔹 Workflow Automation (Coming Soon)</b><br>
 <img src="images/workflow.png" width="100%" style="border-radius:6px; margin-top:5px;" />
 <sub>Automated pipelines reducing manual effort by 75%</sub><br>
 <a href="#">View Project →</a>
-</div>
-
-<div style="margin-bottom:18px;">
-  <b>🔹 Data Pipelines</b><br>
-  <sub>Scalable ingestion & transformation pipelines</sub><br>
-  <a href="project-data-pipeline.html">View Project →</a>
 </div>
 
 </div>
