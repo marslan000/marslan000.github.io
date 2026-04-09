@@ -68,7 +68,7 @@
   }
 </style>
 
----
+
 
 <!-- HERO SECTION -->
 [![CCBA Badge](https://img.shields.io/badge/CCBA-Certified-blue?style=for-the-badge)](https://badges.iiba.org/ee9bb5e6-0dde-4bae-97bc-f1bf6d6168f0#acc.yMVj8cTS)
@@ -77,7 +77,7 @@
 
 Over 10 years of experience designing and delivering data-driven solutions that optimize operations, costs, and strategic planning.
 
----
+
 
 <!-- SKILL / TECH BADGES -->
 ## 🛠 Tech & Tools
@@ -111,7 +111,7 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 <strong>Legend:</strong> 🟢 Cloud Based | 🟡 Server Based <br>
 <strong>ERP Systems:</strong> Hover over each badge to see years of experience
 
----
+
 
 <!-- CORE EXPERTISE -->
 ## 🛠 Core Expertise
@@ -123,7 +123,7 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 - **Automation**: Python, VBA, Power Automate, CRD, Task Scheduler, Data Pipelines, workflow optimization  
 - **Visualization**: Power BI dashboards and reporting  
 
----
+
 
 ## 🚀 Featured Projects
 
@@ -193,7 +193,7 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 
 </div>
 
----
+
 
 <!-- LINKS / CONTACT -->
 ## 🔗 Links
