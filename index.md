@@ -1,3 +1,71 @@
+<style>
+  body {
+    background-color: #0d1117;
+    color: #e6edf3;
+  }
+
+  .section-container {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+  }
+
+  .category-card {
+    background:#161b22;
+    border-radius:12px;
+    padding:18px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.4);
+  }
+
+  .project-item {
+    margin-bottom:20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .project-item:hover {
+    transform: translateY(-4px);
+  }
+
+  .project-item img {
+    width:100%;
+    border-radius:8px;
+    margin-top:6px;
+    margin-bottom:6px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+  }
+
+  .project-link {
+    color:#58a6ff;
+    text-decoration:none;
+    font-weight:bold;
+  }
+
+  .project-link:hover {
+    text-decoration:underline;
+  }
+
+  .subtext {
+    color:#8b949e;
+    font-size:13px;
+  }
+
+  .fade-in {
+    opacity:0;
+    transform: translateY(20px);
+    animation: fadeIn 0.6s ease forwards;
+  }
+
+  .fade-in:nth-child(2) { animation-delay:0.15s; }
+  .fade-in:nth-child(3) { animation-delay:0.3s; }
+
+  @keyframes fadeIn {
+    to {
+      opacity:1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
 ---
 theme: jekyll-theme-cayman
 ---
