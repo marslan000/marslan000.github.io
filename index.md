@@ -110,11 +110,10 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 <a href="#">View Project →</a>
 </div>
 
-<div>
-<b>🔹 Data Pipelines (Coming Soon)</b><br>
-<img src="images/pricing.png" width="100%" style="border-radius:6px; margin-top:5px;" />
-<sub>Scalable ingestion & transformation pipelines</sub><br>
-<a href="#">View Project →</a>
+<div style="margin-bottom:18px;">
+  <b>🔹 Data Pipelines</b><br>
+  <sub>Scalable ingestion & transformation pipelines</sub><br>
+  <a href="project-data-pipeline.html">View Project →</a>
 </div>
 
 </div>
