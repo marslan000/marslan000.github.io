@@ -159,13 +159,13 @@ Over 10 years of experience designing and delivering data-driven solutions that 
 
 <div class="project-item">
   <b>🔹 Medallion Architecture</b><br>
-  <div class="subtext">End-to-end layered data architecture (Bronze → Silver → Gold)</div>
+  <div class="subtext" style="color: #f0f0f0;">End-to-end layered data architecture (Bronze → Silver → Gold)</div>
   <a class="project-link" href="project-medallion-architecture.html">View Project →</a>
 </div>
 
 <div class="project-item">
   <b>🔹 Data Pipelines</b><br>
-  <div class="subtext">Scalable ingestion & transformation pipelines</div>
+  <div class="subtext" style="color: #f0f0f0;">Scalable ingestion & transformation pipelines</div>
   <a class="project-link" href="project-data-pipeline.html">View Project →</a>
 </div>
 
